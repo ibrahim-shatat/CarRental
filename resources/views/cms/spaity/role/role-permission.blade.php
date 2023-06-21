@@ -22,22 +22,7 @@
                         <h3 class="card-title"></h3>
                         {{-- <a href="{{ route('roles.index') }}" type="button"  class="btn btn-success">الأدوار</a> --}}
 
-                                  <div class="card-tools">
-                            <div class="mx-auto pull-right">
-                                <div class="">
-                                    <form action="{{('roles.permissions.index')}}" method="GET" role="search">
-                                        <div class="input-group input-group-sm" style="width: 200px;">
 
-                                            <input type="text" class="form-control mr-2" name="name" placeholder="Search Role Permissions" id="name">
-
-                                            <div class="input-group-append">
-                                              <button type="submit" class="btn btn-default">
-                                                <i class="fas fa-search"></i>
-                                              </button>
-                                            </div>
-                                          </div>
-                                </div>
-                            </div>
 
                         </div>
                      </div>
